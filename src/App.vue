@@ -3,12 +3,13 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue';
+import { onMounted, nextTick } from 'vue';
 import { useConsentStore } from 'stores/consent-store';
 
 const consentStore = useConsentStore();
 
-onMounted(() => {
+onMounted(async () => {
+  await nextTick();
   consentStore.loadConsent();
 });
 </script>

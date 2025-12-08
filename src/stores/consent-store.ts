@@ -41,6 +41,9 @@ export const useConsentStore = defineStore('consent', () => {
     const script = document.createElement('script');
     script.async = true;
     script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+    script.onerror = () => {
+      // Silenciosamente ignora erro (ad blocker, etc)
+    };
     document.head.appendChild(script);
 
     window.dataLayer = window.dataLayer || [];
