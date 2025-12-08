@@ -76,6 +76,141 @@ export default {
     brand: 'idm-auth.io',
     description: 'Open Source • SaaS • Suporte Profissional',
     copyright: 'Todos os direitos reservados.',
+    privacy: 'Política de Privacidade',
+    terms: 'Termos de Uso',
+  },
+  cookies: {
+    title: 'Este site usa cookies',
+    description: 'Usamos cookies essenciais e Google Analytics para melhorar sua experiência. Os cookies analíticos só serão ativados com seu consentimento.',
+    learnMore: 'Saiba mais em nossa',
+    privacyPolicy: 'Política de Privacidade',
+    accept: 'Aceitar',
+    reject: 'Rejeitar',
+  },
+  privacy: {
+    title: 'Política de Privacidade',
+    lastUpdate: 'Última atualização: Janeiro de 2025',
+    intro: {
+      title: 'Introdução',
+      content: 'A idm-auth.io ("nós", "nosso" ou "nos") está comprometida em proteger sua privacidade. Esta Política de Privacidade explica como coletamos, usamos e protegemos suas informações quando você visita nosso site institucional.',
+    },
+    dataCollected: {
+      title: 'Informações que Coletamos',
+      content: 'Coletamos as seguintes informações quando você visita nosso site:',
+      items: {
+        item1: 'Dados de navegação: endereço IP, tipo de navegador, páginas visitadas, tempo de permanência',
+        item2: 'Cookies e tecnologias similares para análise de uso do site',
+        item3: 'Informações fornecidas voluntariamente através de formulários de contato',
+        item4: 'Dados analíticos através do Google Analytics (apenas com seu consentimento)',
+      },
+    },
+    howWeUse: {
+      title: 'Como Usamos suas Informações',
+      content: 'Utilizamos suas informações para:',
+      items: {
+        item1: 'Melhorar a experiência do usuário e o conteúdo do site',
+        item2: 'Analisar o tráfego e comportamento dos visitantes',
+        item3: 'Responder a solicitações de contato e suporte',
+      },
+    },
+    cookies: {
+      title: 'Cookies',
+      content: 'Utilizamos dois tipos de cookies:',
+      items: {
+        item1: 'Cookies essenciais: necessários para o funcionamento básico do site (preferências de idioma, consentimento)',
+        item2: 'Cookies analíticos: Google Analytics para entender como os visitantes usam o site (apenas com consentimento)',
+      },
+    },
+    analytics: {
+      title: 'Google Analytics',
+      content: 'Utilizamos o Google Analytics para coletar informações sobre como os visitantes usam nosso site. O Google Analytics usa cookies para coletar informações de forma anônima, incluindo o número de visitantes, de onde vieram e as páginas visitadas. Você pode optar por não participar do Google Analytics através do banner de cookies ou instalando o <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" class="text-primary">complemento de desativação do Google Analytics</a>.',
+    },
+    dataSharing: {
+      title: 'Compartilhamento de Dados',
+      content: 'Não vendemos, alugamos ou compartilhamos suas informações pessoais com terceiros, exceto:<br>- Google Analytics (apenas com seu consentimento) para análise de uso do site<br>- Quando exigido por lei ou para proteger nossos direitos legais',
+    },
+    yourRights: {
+      title: 'Seus Direitos (LGPD/GDPR)',
+      content: 'Você tem direito a:',
+      items: {
+        item1: 'Acessar, corrigir ou excluir suas informações pessoais',
+        item2: 'Retirar seu consentimento para cookies analíticos a qualquer momento',
+        item3: 'Solicitar a portabilidade de seus dados',
+        item4: 'Apresentar uma reclamação a uma autoridade de proteção de dados',
+      },
+    },
+    security: {
+      title: 'Segurança',
+      content: 'Implementamos medidas de segurança técnicas e organizacionais apropriadas para proteger suas informações contra acesso não autorizado, alteração, divulgação ou destruição.',
+    },
+    changes: {
+      title: 'Alterações nesta Política',
+      content: 'Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos sobre mudanças significativas através de um aviso em nosso site.',
+    },
+    contact: {
+      title: 'Contato',
+      content: 'Para questões sobre esta Política de Privacidade ou para exercer seus direitos, entre em contato:<br><strong>Email:</strong> <a href="mailto:contact@idm-auth.io" class="text-primary">contact@idm-auth.io</a>',
+    },
+  },
+  terms: {
+    title: 'Termos de Uso',
+    lastUpdate: 'Última atualização: Janeiro de 2025',
+    acceptance: {
+      title: 'Aceitação dos Termos',
+      content: 'Ao acessar e usar o site institucional da idm-auth.io, você concorda em cumprir e estar vinculado a estes Termos de Uso. Se você não concordar com qualquer parte destes termos, não use nosso site.',
+    },
+    description: {
+      title: 'Descrição do Serviço',
+      content: 'Este site institucional fornece informações sobre a plataforma idm-auth.io, uma solução open source de autenticação, autorização e controle de acesso. O site é apenas informativo e não constitui a plataforma em si.',
+    },
+    license: {
+      title: 'Licença de Uso',
+      content: 'Concedemos a você uma licença limitada, não exclusiva e não transferível para:',
+      items: {
+        item1: 'Acessar e visualizar o conteúdo do site para uso pessoal e não comercial',
+        item2: 'Baixar materiais informativos disponibilizados publicamente',
+        item3: 'Compartilhar links para o site em redes sociais e outras plataformas',
+        item4: 'Esta licença não inclui o direito de usar nosso nome, logotipos ou marcas sem autorização prévia',
+      },
+    },
+    prohibited: {
+      title: 'Uso Proibido',
+      content: 'Você concorda em NÃO:',
+      items: {
+        item1: 'Usar o site para qualquer propósito ilegal ou não autorizado',
+        item2: 'Tentar obter acesso não autorizado a qualquer parte do site',
+        item3: 'Copiar, modificar ou distribuir o conteúdo do site sem permissão',
+        item4: 'Usar nosso nome, logotipos ou marcas sem autorização expressa por escrito',
+      },
+    },
+    intellectual: {
+      title: 'Propriedade Intelectual',
+      content: 'Todo o conteúdo deste site, incluindo textos, gráficos, logotipos, imagens e software, é propriedade da idm-auth.io e protegido por leis de direitos autorais e propriedade intelectual. O nome "idm-auth.io" e todos os logotipos relacionados são marcas registradas ou marcas comerciais da idm-auth.io.',
+    },
+    disclaimer: {
+      title: 'Isenção de Garantias',
+      content: 'Este site é fornecido "como está" e "conforme disponível", sem garantias de qualquer tipo, expressas ou implícitas. Não garantimos que o site estará sempre disponível, livre de erros ou vírus.',
+    },
+    limitation: {
+      title: 'Limitação de Responsabilidade',
+      content: 'Em nenhuma circunstância a idm-auth.io será responsável por quaisquer danos diretos, indiretos, incidentais, especiais ou consequenciais decorrentes do uso ou incapacidade de usar este site.',
+    },
+    modifications: {
+      title: 'Modificações',
+      content: 'Reservamos o direito de modificar ou descontinuar o site ou estes Termos de Uso a qualquer momento, sem aviso prévio. Seu uso continuado do site após tais modificações constitui sua aceitação dos novos termos.',
+    },
+    termination: {
+      title: 'Rescisão',
+      content: 'Podemos encerrar ou suspender seu acesso ao site imediatamente, sem aviso prévio, por qualquer motivo, incluindo violação destes Termos de Uso.',
+    },
+    law: {
+      title: 'Lei Aplicável',
+      content: 'Estes Termos de Uso são regidos pelas leis do Brasil. Qualquer disputa relacionada a estes termos será resolvida nos tribunais brasileiros.',
+    },
+    contact: {
+      title: 'Contato',
+      content: 'Para questões sobre estes Termos de Uso, entre em contato:<br><strong>Email:</strong> <a href="mailto:contact@idm-auth.io" class="text-primary">contact@idm-auth.io</a>',
+    },
   },
   whyUseSection: {
     title: 'Ainda não está convencido?',

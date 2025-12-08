@@ -1,12 +1,21 @@
 <template>
   <footer class="bg-primary text-accent q-py-xl">
     <div class="container q-px-md">
-      <div class="row justify-between items-center q-gutter-md">
+      <div class="row justify-between items-start q-gutter-md">
         <div>
           <div class="text-h6 text-weight-bold q-mb-sm">{{ $t('footer.brand') }}</div>
           <p class="q-my-none" style="opacity: 0.8">{{ $t('footer.description') }}</p>
         </div>
-        <div>
+        <div class="text-right">
+          <div class="q-mb-sm">
+            <router-link to="/privacy" class="text-accent" style="opacity: 0.8; text-decoration: none">
+              {{ $t('footer.privacy') }}
+            </router-link>
+            <span class="q-mx-sm" style="opacity: 0.5">|</span>
+            <router-link to="/terms" class="text-accent" style="opacity: 0.8; text-decoration: none">
+              {{ $t('footer.terms') }}
+            </router-link>
+          </div>
           <p class="q-my-none" style="opacity: 0.7">&copy; {{ currentYear }} {{ $t('footer.brand') }}. {{ $t('footer.copyright') }}</p>
         </div>
       </div>

@@ -1,17 +1,6 @@
 <!doctype html>
 <html>
   <head>
-    <% if (process.env.VITE_GA_MEASUREMENT_ID) { %>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=<%= process.env.VITE_GA_MEASUREMENT_ID %>"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '<%= process.env.VITE_GA_MEASUREMENT_ID %>');
-    </script>
-    <% } %>
-
     <title><%= productName %></title>
 
     <meta charset="utf-8" />
