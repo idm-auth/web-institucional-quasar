@@ -1,0 +1,160 @@
+export default {
+  header: {
+    features: 'Features',
+    about: 'About',
+    contact: 'Contact',
+    console: 'Console',
+    whyUse: 'Why Use',
+  },
+  hero: {
+    badge1: 'Authentication',
+    badge2: 'Authorization',
+    badge3: 'Access Control',
+    title: 'idm-auth.io',
+    subtitle: 'Open source authentication, authorization and access control platform. Centralized management of permissions and resources across your organization',
+    ctaPrimary: 'Start Free',
+    ctaSecondary: 'Try SaaS',
+  },
+  features: {
+    title: 'Why choose idm-auth.io?',
+    subtitle: 'Open Source, flexible and with professional support',
+    security: {
+      title: 'Open Source',
+      description: 'Transparent, auditable code. Contribute and customize according to your needs',
+    },
+    performance: {
+      title: 'High Performance',
+      description: 'Fast and scalable processing for thousands of concurrent users',
+    },
+    integration: {
+      title: 'Easy Integration',
+      description: 'RESTful APIs and SDKs for multiple programming languages',
+    },
+    monitoring: {
+      title: 'Self-Hosted or SaaS',
+      description: 'Host it yourself with full control or use our managed cloud service',
+    },
+    ready: {
+      title: 'Granular Control',
+      description: 'Detailed management of permissions, roles and access policies across your organization',
+    },
+    expertise: {
+      title: 'Professional Support',
+      description: 'Dedicated support plans, consulting and specialized training',
+    },
+  },
+  about: {
+    title: 'About idm-auth.io',
+    subtitle: 'Open source platform for modern identity and access management',
+    mission: {
+      title: 'Our Mission',
+      description: 'Provide a secure and reliable enterprise authentication and authorization solution, allowing companies to focus on their core business without compromising security with inadequate implementations.',
+    },
+    why: {
+      title: 'Why Open Source?',
+      description: 'We believe security and transparency go hand in hand. With open source, you can audit, contribute and have full control over your identity infrastructure.',
+    },
+    community: {
+      title: 'Community',
+      description: 'Active community of developers and companies committed to security. Contribute improvements, share experiences and help other companies avoid common implementation flaws.',
+    },
+  },
+  contact: {
+    title: 'Get in Touch',
+    subtitle: 'We are here to help you get started',
+    github: 'GitHub',
+    email: 'Email',
+    support: 'Support',
+    community: 'Community',
+  },
+  cta: {
+    title: 'Ready to get started?',
+    subtitle: 'Start free with open source or try our SaaS',
+    button: 'View on GitHub',
+  },
+  footer: {
+    brand: 'idm-auth.io',
+    description: 'Open Source • SaaS • Professional Support',
+    copyright: 'All rights reserved.',
+  },
+  whyUseSection: {
+    title: 'Still not convinced?',
+    subtitle: 'Discover why hundreds of companies choose idm-auth.io',
+    button: 'Understand Why',
+  },
+  whyUse: {
+    title: 'Still not convinced?',
+    subtitle: 'Understand why we created idm-auth.io and why you should use it',
+    reasons: {
+      security: {
+        title: 'Security is not optional',
+        desc: 'Homegrown authentication implementations are the leading cause of data breaches. Don\'t risk your company\'s reputation.',
+        point1: 'Protection against common attacks (SQL Injection, XSS, CSRF)',
+        point2: 'End-to-end encryption and secure password storage',
+        point3: 'Compliance with LGPD, GDPR and international standards',
+      },
+      authorization: {
+        title: 'Centralized and intelligent authorization',
+        desc: 'Stop overloading your application with permission logic. Our system processes all authorization validations externally, keeping your code clean and performant.',
+        point1: 'Access decisions processed in milliseconds outside your application',
+        point2: 'Reduce complexity: focus on what really matters for your business',
+        point3: 'Update access policies without deployment or code changes',
+      },
+      time: {
+        title: 'Save months of development',
+        desc: 'Building a robust authentication system from scratch takes months. Why reinvent the wheel?',
+        point1: 'Production-ready in minutes, not months',
+        point2: 'Focus on your product, not security infrastructure',
+        point3: 'Automatic security updates and patches',
+      },
+      cost: {
+        title: 'Drastically reduce costs',
+        desc: 'The cost of developing and maintaining your own system is much higher than it seems.',
+        point1: 'No need for dedicated maintenance team',
+        point2: 'Avoid costs from security incidents and breaches',
+        point3: 'Open source: start free, pay only if you need support',
+      },
+      opensource: {
+        title: 'Transparency and full control',
+        desc: 'Unlike proprietary solutions, you have full access to the code and can audit every line.',
+        point1: 'No vendor lock-in: host wherever you want',
+        point2: 'Customize and adapt to your specific needs',
+        point3: 'Active community contributing improvements',
+      },
+      policies: {
+        title: 'Declarative access policies',
+        desc: 'Define complex permissions intuitively. Granular control over who can do what, when and where, without writing a single line of code.',
+        point1: 'Policies based on resources, actions and conditions',
+        point2: 'Permission inheritance and hierarchical groups',
+        point3: 'Real-time validation with instant feedback',
+      },
+    },
+    comparison: {
+      title: 'Custom implementation vs idm-auth.io',
+      without: {
+        title: 'Custom implementation',
+        point1: 'Access audit? "We\'ll do it later"',
+        point2: 'Temporary permissions? "We don\'t need it"',
+        point3: 'Context-based authorization? "Too complex"',
+        point4: 'Distributed session management? "Future problem"',
+        point5: 'Granular policies? "Basic roles are enough"',
+        point6: 'Compliance and reports? "If needed, we\'ll implement"',
+      },
+      with: {
+        title: 'With idm-auth.io',
+        point1: 'Complete audit of all accesses in real-time',
+        point2: 'Temporary permissions with automatic expiration',
+        point3: 'Authorization based on attributes, time and location',
+        point4: 'Distributed sessions synchronized across services',
+        point5: 'Granular policies with inheritance and delegation',
+        point6: 'Compliance reports ready for auditing',
+      },
+    },
+    cta: {
+      title: 'Convinced? Start now!',
+      subtitle: 'Join hundreds of companies that trust idm-auth.io',
+      primary: 'Start Free',
+      secondary: 'Back to Home',
+    },
+  },
+};

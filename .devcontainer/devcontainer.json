@@ -1,0 +1,70 @@
+{
+  "name": "web-institucional-quasar",
+  "service": "frontend",
+  "dockerComposeFile": "docker-compose.yml",
+  "workspaceFolder": "/workspace",
+  "remoteUser": "dev-user",
+  "overrideCommand": true,
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "workbench.colorCustomizations": {
+          "activityBar.background": "#ee4f05cb",
+          "activityBar.activeBackground": "#ee4f05cb",
+          "activityBar.inactiveForeground": "#ffffff",
+          "statusBar.background": "#ee4f05cb",
+          "statusBar.foreground": "#ffffff",
+          "editor.bracketPairColorization.enabled": true,
+          "editor.guides.bracketPairs": true,
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.codeActionsOnSave": [
+            "source.fixAll.eslint"
+          ],
+          "eslint.validate": [
+            "javascript",
+            "javascriptreact",
+            "typescript",
+            "vue"
+          ],
+          "typescript.tsdk": "node_modules/typescript/lib",
+          "typescript.autoImportSuggestions.enabled": true,
+          "javascript.autoImportSuggestions.enabled": true,
+        },
+        "editor.bracketPairColorization.enabled": true,
+        "editor.guides.bracketPairs": true,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "always",
+          "source.organizeImports": "always",
+          "source.addMissingImports": "always",
+        },
+        "eslint.validate": [
+          "javascript",
+          "typescript",
+        ],
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "typescript.tsdk": "node_modules/typescript/lib"
+      },
+      "unwantedRecommendations": [
+        "octref.vetur",
+        "hookyqr.beautify",
+        "dbaeumer.jshint",
+        "ms-vscode.vscode-typescript-tslint-plugin"
+      ],
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "editorconfig.editorconfig",
+        "vue.volar",
+        "wayou.vscode-todo-highlight",
+        "ms-azuretools.vscode-docker",
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "EditorConfig.EditorConfig",
+        "mk12.better-git-line-blame",
+        "AmazonWebServices.amazon-q-vscode"
+      ]
+    }
+  }
+}

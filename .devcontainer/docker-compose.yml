@@ -1,0 +1,19 @@
+x-environment: &default-environment
+  ENVIRONMENT_ACTIVE: local
+
+services:
+  frontend:
+    image: frontend
+    tty: true
+    hostname: web-institucional-quasar
+    build:
+      context: ..
+      dockerfile: .devcontainer/containers/workspace/Dockerfile
+    environment:
+      <<: *default-environment
+    volumes:
+      - ..:/workspace:consistent
+      - /var/run/docker.sock:/var/run/docker.sock:consistent
+      - ~/.aws:/home/dev-user/.aws:consistent
+    ports:
+      - 10000:10000
