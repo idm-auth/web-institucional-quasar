@@ -11,7 +11,8 @@ export default {
     badge2: 'Authorization',
     badge3: 'Access Control',
     title: 'idm-auth.io',
-    subtitle: 'Open source authentication, authorization and access control platform. Centralized management of permissions and resources across your organization',
+    subtitle:
+      'Open source authentication, authorization and access control platform. Centralized management of permissions and resources across your organization',
     ctaPrimary: 'Start Free',
     ctaSecondary: 'Try SaaS',
   },
@@ -36,7 +37,8 @@ export default {
     },
     ready: {
       title: 'Granular Control',
-      description: 'Detailed management of permissions, roles and access policies across your organization',
+      description:
+        'Detailed management of permissions, roles and access policies across your organization',
     },
     expertise: {
       title: 'Professional Support',
@@ -48,19 +50,22 @@ export default {
     subtitle: 'Open source platform for modern identity and access management',
     mission: {
       title: 'Our Mission',
-      description: 'Provide a secure and reliable enterprise authentication and authorization solution, allowing companies to focus on their core business without compromising security with inadequate implementations.',
+      description:
+        'Provide a secure and reliable enterprise authentication and authorization solution, allowing companies to focus on their core business without compromising security with inadequate implementations.',
     },
     why: {
       title: 'Why Open Source?',
-      description: 'We believe security and transparency go hand in hand. With open source, you can audit, contribute and have full control over your identity infrastructure.',
+      description:
+        'We believe security and transparency go hand in hand. With open source, you can audit, contribute and have full control over your identity infrastructure.',
     },
     community: {
       title: 'Community',
-      description: 'Active community of developers and companies committed to security. Contribute improvements, share experiences and help other companies avoid common implementation flaws.',
+      description:
+        'Active community of developers and companies committed to security. Contribute improvements, share experiences and help other companies avoid common implementation flaws.',
     },
   },
   contact: {
-    title: 'Get in Touch',
+    title: 'Get in touch',
     subtitle: 'We are here to help you get started',
     github: 'GitHub',
     email: 'Email',
@@ -81,7 +86,8 @@ export default {
   },
   cookies: {
     title: 'This site uses cookies',
-    description: 'We use essential cookies and Google Analytics to improve your experience. Analytics cookies will only be activated with your consent.',
+    description:
+      'We use essential cookies and Google Analytics to improve your experience. Analytics cookies will only be activated with your consent.',
     learnMore: 'Learn more in our',
     privacyPolicy: 'Privacy Policy',
     accept: 'Accept',
@@ -92,7 +98,8 @@ export default {
     lastUpdate: 'Last updated: January 2025',
     intro: {
       title: 'Introduction',
-      content: 'idm-auth.io ("we", "our" or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use and protect your information when you visit our institutional website.',
+      content:
+        'idm-auth.io ("we", "our" or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use and protect your information when you visit our institutional website.',
     },
     dataCollected: {
       title: 'Information We Collect',
@@ -117,17 +124,21 @@ export default {
       title: 'Cookies',
       content: 'We use two types of cookies:',
       items: {
-        item1: 'Essential cookies: necessary for basic site functionality (language preferences, consent)',
-        item2: 'Analytics cookies: Google Analytics to understand how visitors use the site (only with consent)',
+        item1:
+          'Essential cookies: necessary for basic site functionality (language preferences, consent)',
+        item2:
+          'Analytics cookies: Google Analytics to understand how visitors use the site (only with consent)',
       },
     },
     analytics: {
       title: 'Google Analytics',
-      content: 'We use Google Analytics to collect information about how visitors use our site. Google Analytics uses cookies to collect information anonymously, including the number of visitors, where they came from and the pages visited. You can opt out of Google Analytics through the cookie banner or by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" class="text-primary">Google Analytics opt-out add-on</a>.',
+      content:
+        'We use Google Analytics to collect information about how visitors use our site. Google Analytics uses cookies to collect information anonymously, including the number of visitors, where they came from and the pages visited. You can opt out of Google Analytics through the cookie banner or by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" class="text-primary">Google Analytics opt-out add-on</a>.',
     },
     dataSharing: {
       title: 'Data Sharing',
-      content: 'We do not sell, rent or share your personal information with third parties, except:<br>- Google Analytics (only with your consent) for site usage analysis<br>- When required by law or to protect our legal rights',
+      content:
+        'We do not sell, rent or share your personal information with third parties, except:<br>- Google Analytics (only with your consent) for site usage analysis<br>- When required by law or to protect our legal rights',
     },
     yourRights: {
       title: 'Your Rights (LGPD/GDPR)',
@@ -141,15 +152,18 @@ export default {
     },
     security: {
       title: 'Security',
-      content: 'We implement appropriate technical and organizational security measures to protect your information against unauthorized access, alteration, disclosure or destruction.',
+      content:
+        'We implement appropriate technical and organizational security measures to protect your information against unauthorized access, alteration, disclosure or destruction.',
     },
     changes: {
       title: 'Changes to this Policy',
-      content: 'We may update this Privacy Policy periodically. We will notify you of significant changes through a notice on our site.',
+      content:
+        'We may update this Privacy Policy periodically. We will notify you of significant changes through a notice on our site.',
     },
     contact: {
       title: 'Contact',
-      content: 'For questions about this Privacy Policy or to exercise your rights, contact us:<br><strong>Email:</strong> <a href="mailto:contact@idm-auth.io" class="text-primary">contact@idm-auth.io</a>',
+      content:
+        'For questions about this Privacy Policy or to exercise your rights, contact us:<br><strong>Email:</strong> <a href="mailto:contact@idm-auth.io" class="text-primary">contact@idm-auth.io</a>',
     },
   },
   terms: {
@@ -157,11 +171,13 @@ export default {
     lastUpdate: 'Last updated: January 2025',
     acceptance: {
       title: 'Acceptance of Terms',
-      content: 'By accessing and using the idm-auth.io institutional website, you agree to comply with and be bound by these Terms of Use. If you do not agree with any part of these terms, do not use our site.',
+      content:
+        'By accessing and using the idm-auth.io institutional website, you agree to comply with and be bound by these Terms of Use. If you do not agree with any part of these terms, do not use our site.',
     },
     description: {
       title: 'Service Description',
-      content: 'This institutional website provides information about the idm-auth.io platform, an open source authentication, authorization and access control solution. The site is informational only and does not constitute the platform itself.',
+      content:
+        'This institutional website provides information about the idm-auth.io platform, an open source authentication, authorization and access control solution. The site is informational only and does not constitute the platform itself.',
     },
     license: {
       title: 'License to Use',
@@ -170,7 +186,8 @@ export default {
         item1: 'Access and view site content for personal and non-commercial use',
         item2: 'Download publicly available informational materials',
         item3: 'Share links to the site on social media and other platforms',
-        item4: 'This license does not include the right to use our name, logos or trademarks without prior authorization',
+        item4:
+          'This license does not include the right to use our name, logos or trademarks without prior authorization',
       },
     },
     prohibited: {
@@ -185,31 +202,51 @@ export default {
     },
     intellectual: {
       title: 'Intellectual Property',
-      content: 'All content on this site, including text, graphics, logos, images and software, is the property of idm-auth.io and protected by copyright and intellectual property laws. The name "idm-auth.io" and all related logos are registered trademarks or trademarks of idm-auth.io.',
+      content:
+        'All content on this site, including text, graphics, logos, images and software, is the property of idm-auth.io and protected by copyright and intellectual property laws. The name "idm-auth.io" and all related logos are registered trademarks or trademarks of idm-auth.io.',
     },
     disclaimer: {
       title: 'Disclaimer of Warranties',
-      content: 'This site is provided "as is" and "as available", without warranties of any kind, express or implied. We do not guarantee that the site will always be available, error-free or virus-free.',
+      content:
+        'This site is provided "as is" and "as available", without warranties of any kind, express or implied. We do not guarantee that the site will always be available, error-free or virus-free.',
     },
     limitation: {
       title: 'Limitation of Liability',
-      content: 'Under no circumstances shall idm-auth.io be liable for any direct, indirect, incidental, special or consequential damages arising from the use or inability to use this site.',
+      content:
+        'Under no circumstances shall idm-auth.io be liable for any direct, indirect, incidental, special or consequential damages arising from the use or inability to use this site.',
     },
     modifications: {
       title: 'Modifications',
-      content: 'We reserve the right to modify or discontinue the site or these Terms of Use at any time, without prior notice. Your continued use of the site after such modifications constitutes your acceptance of the new terms.',
+      content:
+        'We reserve the right to modify or discontinue the site or these Terms of Use at any time, without prior notice. Your continued use of the site after such modifications constitutes your acceptance of the new terms.',
     },
     termination: {
       title: 'Termination',
-      content: 'We may terminate or suspend your access to the site immediately, without prior notice, for any reason, including violation of these Terms of Use.',
+      content:
+        'We may terminate or suspend your access to the site immediately, without prior notice, for any reason, including violation of these Terms of Use.',
     },
     law: {
       title: 'Applicable Law',
-      content: 'These Terms of Use are governed by the laws of Brazil. Any dispute related to these terms will be resolved in Brazilian courts.',
+      content:
+        'These Terms of Use are governed by the laws of Brazil. Any dispute related to these terms will be resolved in Brazilian courts.',
     },
     contact: {
       title: 'Contact',
-      content: 'For questions about these Terms of Use, contact us:<br><strong>Email:</strong> <a href="mailto:contact@idm-auth.io" class="text-primary">contact@idm-auth.io</a>',
+      content:
+        'For questions about these Terms of Use, contact us:<br><strong>Email:</strong> <a href="mailto:contact@idm-auth.io" class="text-primary">contact@idm-auth.io</a>',
+    },
+  },
+  security: {
+    title: 'Security that keeps pace with AI',
+    challenge: {
+      title: 'The Challenge',
+      description:
+        'AI accelerates development, but also increases risks. Developers focused on productivity leave critical gaps: exposed credentials, hardcoded API keys and vulnerabilities that compromise the entire operation.',
+    },
+    solution: {
+      title: 'The Solution',
+      description:
+        'idm-auth.io automates permission and credential management, eliminating risks before they become problems. Centralized control, security at every layer and zero exposure of sensitive data. Your team develops fast, you sleep soundly.',
     },
   },
   whyUseSection: {
@@ -223,7 +260,7 @@ export default {
     reasons: {
       security: {
         title: 'Security is not optional',
-        desc: 'Homegrown authentication implementations are the leading cause of data breaches. Don\'t risk your company\'s reputation.',
+        desc: "Homegrown authentication implementations are the leading cause of data breaches. Don't risk your company's reputation.",
         point1: 'Protection against common attacks (SQL Injection, XSS, CSRF)',
         point2: 'End-to-end encryption and secure password storage',
         point3: 'Compliance with LGPD, GDPR and international standards',

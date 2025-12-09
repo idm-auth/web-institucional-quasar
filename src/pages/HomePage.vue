@@ -4,6 +4,7 @@
     <HeroSection />
     <FeaturesSection />
     <AboutSection />
+    <SecuritySection />
     <WhyUseSection />
     <ContactSection />
     <CtaSection />
@@ -19,6 +20,7 @@ import AppHeader from 'components/AppHeader.vue';
 import HeroSection from 'components/HeroSection.vue';
 import FeaturesSection from 'components/FeaturesSection.vue';
 import AboutSection from 'components/AboutSection.vue';
+import SecuritySection from 'components/SecuritySection.vue';
 import WhyUseSection from 'components/WhyUseSection.vue';
 import ContactSection from 'components/ContactSection.vue';
 import CtaSection from 'components/CtaSection.vue';

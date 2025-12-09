@@ -3,7 +3,7 @@
     <q-toolbar class="q-px-md bg-black shadow-1">
       <q-toolbar-title class="q-pa-none full-width q-mx-auto">
         <div class="row items-center justify-between">
-          <img src="../assets/logo.svg" alt="idm-auth.io" class="logo-img" />
+          <img src="../assets/logo-accent.svg" alt="idm-auth.io" class="logo-img" />
 
           <div class="row items-center q-gutter-md">
             <q-btn flat :label="$t('header.features')" @click="scrollTo('features')" class="text-grey-3" />
@@ -53,8 +53,6 @@ const scrollTo = (id: string) => {
 <style scoped lang="scss">
 .logo-img {
   max-height: 35px;
-  filter: brightness(0) saturate(100%) invert(97%) sepia(13%) saturate(1015%) hue-rotate(330deg)
-    brightness(103%) contrast(96%);
 }
 
 .btn-login {

@@ -11,7 +11,8 @@ export default {
     badge2: 'Autorização',
     badge3: 'Controle de Acesso',
     title: 'idm-auth.io',
-    subtitle: 'Plataforma open source de autenticação, autorização e controle de acesso. Gestão centralizada de permissões e recursos da sua organização',
+    subtitle:
+      'Plataforma open source de autenticação, autorização e controle de acesso. Gestão centralizada de permissões e recursos da sua organização',
     ctaPrimary: 'Começar Grátis',
     ctaSecondary: 'Experimentar SaaS',
   },
@@ -20,7 +21,8 @@ export default {
     subtitle: 'Open Source, flexível e com suporte profissional',
     security: {
       title: 'Open Source',
-      description: 'Código aberto, transparente e auditável. Contribua e personalize conforme suas necessidades',
+      description:
+        'Código aberto, transparente e auditável. Contribua e personalize conforme suas necessidades',
     },
     performance: {
       title: 'Alta Performance',
@@ -36,7 +38,8 @@ export default {
     },
     ready: {
       title: 'Controle Granular',
-      description: 'Gestão detalhada de permissões, papéis e políticas de acesso em toda organização',
+      description:
+        'Gestão detalhada de permissões, papéis e políticas de acesso em toda organização',
     },
     expertise: {
       title: 'Suporte Profissional',
@@ -48,19 +51,22 @@ export default {
     subtitle: 'Plataforma open source para gestão moderna de identidade e acesso',
     mission: {
       title: 'Nossa Missão',
-      description: 'Fornecer uma solução empresarial segura e confiável de autenticação e autorização, permitindo que empresas foquem em seu core business sem comprometer a segurança com implementações inadequadas.',
+      description:
+        'Fornecer uma solução empresarial segura e confiável de autenticação e autorização, permitindo que empresas foquem em seu core business sem comprometer a segurança com implementações inadequadas.',
     },
     why: {
       title: 'Por que Open Source?',
-      description: 'Acreditamos que segurança e transparência andam juntas. Com código aberto, você pode auditar, contribuir e ter controle total sobre sua infraestrutura de identidade.',
+      description:
+        'Acreditamos que segurança e transparência andam juntas. Com código aberto, você pode auditar, contribuir e ter controle total sobre sua infraestrutura de identidade.',
     },
     community: {
       title: 'Comunidade',
-      description: 'Comunidade ativa de desenvolvedores e empresas comprometidos com segurança. Contribua com melhorias, compartilhe experiências e ajude outras empresas a evitar falhas comuns de implementação.',
+      description:
+        'Comunidade ativa de desenvolvedores e empresas comprometidos com segurança. Contribua com melhorias, compartilhe experiências e ajude outras empresas a evitar falhas comuns de implementação.',
     },
   },
   contact: {
-    title: 'Entre em Contato',
+    title: 'Entre em contato',
     subtitle: 'Estamos aqui para ajudar você a começar',
     github: 'GitHub',
     email: 'Email',
@@ -81,7 +87,8 @@ export default {
   },
   cookies: {
     title: 'Este site usa cookies',
-    description: 'Usamos cookies essenciais e Google Analytics para melhorar sua experiência. Os cookies analíticos só serão ativados com seu consentimento.',
+    description:
+      'Usamos cookies essenciais e Google Analytics para melhorar sua experiência. Os cookies analíticos só serão ativados com seu consentimento.',
     learnMore: 'Saiba mais em nossa',
     privacyPolicy: 'Política de Privacidade',
     accept: 'Aceitar',
@@ -92,13 +99,15 @@ export default {
     lastUpdate: 'Última atualização: Janeiro de 2025',
     intro: {
       title: 'Introdução',
-      content: 'A idm-auth.io ("nós", "nosso" ou "nos") está comprometida em proteger sua privacidade. Esta Política de Privacidade explica como coletamos, usamos e protegemos suas informações quando você visita nosso site institucional.',
+      content:
+        'A idm-auth.io ("nós", "nosso" ou "nos") está comprometida em proteger sua privacidade. Esta Política de Privacidade explica como coletamos, usamos e protegemos suas informações quando você visita nosso site institucional.',
     },
     dataCollected: {
       title: 'Informações que Coletamos',
       content: 'Coletamos as seguintes informações quando você visita nosso site:',
       items: {
-        item1: 'Dados de navegação: endereço IP, tipo de navegador, páginas visitadas, tempo de permanência',
+        item1:
+          'Dados de navegação: endereço IP, tipo de navegador, páginas visitadas, tempo de permanência',
         item2: 'Cookies e tecnologias similares para análise de uso do site',
         item3: 'Informações fornecidas voluntariamente através de formulários de contato',
         item4: 'Dados analíticos através do Google Analytics (apenas com seu consentimento)',
@@ -117,17 +126,21 @@ export default {
       title: 'Cookies',
       content: 'Utilizamos dois tipos de cookies:',
       items: {
-        item1: 'Cookies essenciais: necessários para o funcionamento básico do site (preferências de idioma, consentimento)',
-        item2: 'Cookies analíticos: Google Analytics para entender como os visitantes usam o site (apenas com consentimento)',
+        item1:
+          'Cookies essenciais: necessários para o funcionamento básico do site (preferências de idioma, consentimento)',
+        item2:
+          'Cookies analíticos: Google Analytics para entender como os visitantes usam o site (apenas com consentimento)',
       },
     },
     analytics: {
       title: 'Google Analytics',
-      content: 'Utilizamos o Google Analytics para coletar informações sobre como os visitantes usam nosso site. O Google Analytics usa cookies para coletar informações de forma anônima, incluindo o número de visitantes, de onde vieram e as páginas visitadas. Você pode optar por não participar do Google Analytics através do banner de cookies ou instalando o <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" class="text-primary">complemento de desativação do Google Analytics</a>.',
+      content:
+        'Utilizamos o Google Analytics para coletar informações sobre como os visitantes usam nosso site. O Google Analytics usa cookies para coletar informações de forma anônima, incluindo o número de visitantes, de onde vieram e as páginas visitadas. Você pode optar por não participar do Google Analytics através do banner de cookies ou instalando o <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" class="text-primary">complemento de desativação do Google Analytics</a>.',
     },
     dataSharing: {
       title: 'Compartilhamento de Dados',
-      content: 'Não vendemos, alugamos ou compartilhamos suas informações pessoais com terceiros, exceto:<br>- Google Analytics (apenas com seu consentimento) para análise de uso do site<br>- Quando exigido por lei ou para proteger nossos direitos legais',
+      content:
+        'Não vendemos, alugamos ou compartilhamos suas informações pessoais com terceiros, exceto:<br>- Google Analytics (apenas com seu consentimento) para análise de uso do site<br>- Quando exigido por lei ou para proteger nossos direitos legais',
     },
     yourRights: {
       title: 'Seus Direitos (LGPD/GDPR)',
@@ -141,15 +154,18 @@ export default {
     },
     security: {
       title: 'Segurança',
-      content: 'Implementamos medidas de segurança técnicas e organizacionais apropriadas para proteger suas informações contra acesso não autorizado, alteração, divulgação ou destruição.',
+      content:
+        'Implementamos medidas de segurança técnicas e organizacionais apropriadas para proteger suas informações contra acesso não autorizado, alteração, divulgação ou destruição.',
     },
     changes: {
       title: 'Alterações nesta Política',
-      content: 'Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos sobre mudanças significativas através de um aviso em nosso site.',
+      content:
+        'Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos sobre mudanças significativas através de um aviso em nosso site.',
     },
     contact: {
       title: 'Contato',
-      content: 'Para questões sobre esta Política de Privacidade ou para exercer seus direitos, entre em contato:<br><strong>Email:</strong> <a href="mailto:contact@idm-auth.io" class="text-primary">contact@idm-auth.io</a>',
+      content:
+        'Para questões sobre esta Política de Privacidade ou para exercer seus direitos, entre em contato:<br><strong>Email:</strong> <a href="mailto:contact@idm-auth.io" class="text-primary">contact@idm-auth.io</a>',
     },
   },
   terms: {
@@ -157,11 +173,13 @@ export default {
     lastUpdate: 'Última atualização: Janeiro de 2025',
     acceptance: {
       title: 'Aceitação dos Termos',
-      content: 'Ao acessar e usar o site institucional da idm-auth.io, você concorda em cumprir e estar vinculado a estes Termos de Uso. Se você não concordar com qualquer parte destes termos, não use nosso site.',
+      content:
+        'Ao acessar e usar o site institucional da idm-auth.io, você concorda em cumprir e estar vinculado a estes Termos de Uso. Se você não concordar com qualquer parte destes termos, não use nosso site.',
     },
     description: {
       title: 'Descrição do Serviço',
-      content: 'Este site institucional fornece informações sobre a plataforma idm-auth.io, uma solução open source de autenticação, autorização e controle de acesso. O site é apenas informativo e não constitui a plataforma em si.',
+      content:
+        'Este site institucional fornece informações sobre a plataforma idm-auth.io, uma solução open source de autenticação, autorização e controle de acesso. O site é apenas informativo e não constitui a plataforma em si.',
     },
     license: {
       title: 'Licença de Uso',
@@ -170,7 +188,8 @@ export default {
         item1: 'Acessar e visualizar o conteúdo do site para uso pessoal e não comercial',
         item2: 'Baixar materiais informativos disponibilizados publicamente',
         item3: 'Compartilhar links para o site em redes sociais e outras plataformas',
-        item4: 'Esta licença não inclui o direito de usar nosso nome, logotipos ou marcas sem autorização prévia',
+        item4:
+          'Esta licença não inclui o direito de usar nosso nome, logotipos ou marcas sem autorização prévia',
       },
     },
     prohibited: {
@@ -185,31 +204,51 @@ export default {
     },
     intellectual: {
       title: 'Propriedade Intelectual',
-      content: 'Todo o conteúdo deste site, incluindo textos, gráficos, logotipos, imagens e software, é propriedade da idm-auth.io e protegido por leis de direitos autorais e propriedade intelectual. O nome "idm-auth.io" e todos os logotipos relacionados são marcas registradas ou marcas comerciais da idm-auth.io.',
+      content:
+        'Todo o conteúdo deste site, incluindo textos, gráficos, logotipos, imagens e software, é propriedade da idm-auth.io e protegido por leis de direitos autorais e propriedade intelectual. O nome "idm-auth.io" e todos os logotipos relacionados são marcas registradas ou marcas comerciais da idm-auth.io.',
     },
     disclaimer: {
       title: 'Isenção de Garantias',
-      content: 'Este site é fornecido "como está" e "conforme disponível", sem garantias de qualquer tipo, expressas ou implícitas. Não garantimos que o site estará sempre disponível, livre de erros ou vírus.',
+      content:
+        'Este site é fornecido "como está" e "conforme disponível", sem garantias de qualquer tipo, expressas ou implícitas. Não garantimos que o site estará sempre disponível, livre de erros ou vírus.',
     },
     limitation: {
       title: 'Limitação de Responsabilidade',
-      content: 'Em nenhuma circunstância a idm-auth.io será responsável por quaisquer danos diretos, indiretos, incidentais, especiais ou consequenciais decorrentes do uso ou incapacidade de usar este site.',
+      content:
+        'Em nenhuma circunstância a idm-auth.io será responsável por quaisquer danos diretos, indiretos, incidentais, especiais ou consequenciais decorrentes do uso ou incapacidade de usar este site.',
     },
     modifications: {
       title: 'Modificações',
-      content: 'Reservamos o direito de modificar ou descontinuar o site ou estes Termos de Uso a qualquer momento, sem aviso prévio. Seu uso continuado do site após tais modificações constitui sua aceitação dos novos termos.',
+      content:
+        'Reservamos o direito de modificar ou descontinuar o site ou estes Termos de Uso a qualquer momento, sem aviso prévio. Seu uso continuado do site após tais modificações constitui sua aceitação dos novos termos.',
     },
     termination: {
       title: 'Rescisão',
-      content: 'Podemos encerrar ou suspender seu acesso ao site imediatamente, sem aviso prévio, por qualquer motivo, incluindo violação destes Termos de Uso.',
+      content:
+        'Podemos encerrar ou suspender seu acesso ao site imediatamente, sem aviso prévio, por qualquer motivo, incluindo violação destes Termos de Uso.',
     },
     law: {
       title: 'Lei Aplicável',
-      content: 'Estes Termos de Uso são regidos pelas leis do Brasil. Qualquer disputa relacionada a estes termos será resolvida nos tribunais brasileiros.',
+      content:
+        'Estes Termos de Uso são regidos pelas leis do Brasil. Qualquer disputa relacionada a estes termos será resolvida nos tribunais brasileiros.',
     },
     contact: {
       title: 'Contato',
-      content: 'Para questões sobre estes Termos de Uso, entre em contato:<br><strong>Email:</strong> <a href="mailto:contact@idm-auth.io" class="text-primary">contact@idm-auth.io</a>',
+      content:
+        'Para questões sobre estes Termos de Uso, entre em contato:<br><strong>Email:</strong> <a href="mailto:contact@idm-auth.io" class="text-primary">contact@idm-auth.io</a>',
+    },
+  },
+  security: {
+    title: 'Segurança que acompanha a velocidade da IA',
+    challenge: {
+      title: 'O Desafio',
+      description:
+        'A IA acelera o desenvolvimento, mas também aumenta os riscos. Desenvolvedores focados em produtividade deixam brechas críticas: credenciais expostas, chaves de API hardcoded e vulnerabilidades que comprometem toda a operação.',
+    },
+    solution: {
+      title: 'A Solução',
+      description:
+        'O idm-auth.io automatiza a gestão de permissões e credenciais, eliminando riscos antes que se tornem problemas. Controle centralizado, segurança em cada camada e zero exposição de dados sensíveis. Sua equipe desenvolve rápido, você dorme tranquilo.',
     },
   },
   whyUseSection: {
