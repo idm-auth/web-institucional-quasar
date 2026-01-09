@@ -5,7 +5,7 @@ export default {
     contact: 'Contact',
     console: 'Console',
     whyUse: 'Why Use',
-    howToUse: 'How to Use',
+    howToUse: 'How to use',
   },
   hero: {
     badge1: 'Authentication',
@@ -331,7 +331,7 @@ export default {
     },
   },
   howToUse: {
-    title: 'How to Use',
+    title: 'How to use',
     subtitle: 'Complete guide to get started with idm-auth.io',
     banner: 'There are many ways to use idm-auth.io',
     sidecar: {
@@ -339,18 +339,97 @@ export default {
       desc: 'Run idm-auth.io as a sidecar container alongside your application',
       subtitle: 'Deploy idm-auth.io as a sidecar in Kubernetes or Docker Compose',
       back: 'Back',
-      comingSoon: 'Content coming soon...',
-      diagram: {
-        user: 'User',
-        pod: 'Pod / Container Group',
-        app: 'Your Application',
-        backend: 'IDM-Auth Backend',
-        step1: '1. Request resource',
-        step2: '2. Validate authentication',
-        step3: '3. Authentication valid',
-        step4: '4. Validate authorization',
-        step5: '5. Authorization valid',
-        step6: '6. Proxy to application',
+      overview: {
+        title: 'Overview',
+        description:
+          'The sidecar model deploys idm-auth.io as an additional container in the same pod as your application. Users access the sidecar directly, which manages all authentication and authorization before forwarding validated requests to your application.',
+      },
+      howItWorks: {
+        title: 'How It Works',
+        step1: {
+          title: '1. Direct Request to Sidecar',
+          desc: 'The user accesses the idm-auth.io sidecar container directly, which acts as an authentication proxy in the same pod as the application.',
+        },
+        step2: {
+          title: '2. Authentication Validation',
+          desc: 'The sidecar makes a call to the idm-auth.io SSAS (external to the cluster) to validate user credentials and verify their identity.',
+        },
+        step3: {
+          title: '3. Authorization Validation',
+          desc: 'After successful authentication, the sidecar makes a second call to SSAS to verify user permissions and access policies for the requested resource.',
+        },
+        step4: {
+          title: '4. Proxy to Application',
+          desc: 'The sidecar forwards the authorized request to the application container via localhost. Your application receives only validated requests.',
+        },
+      },
+      benefits: {
+        title: 'Benefits',
+        colocated: {
+          title: 'Co-location',
+          desc: 'Sidecar and application share the same pod, ensuring low latency and efficient communication via localhost.',
+        },
+        isolation: {
+          title: 'Security Isolation',
+          desc: 'Each application has its own authentication sidecar, isolating failures and allowing service-specific configurations.',
+        },
+        transparent: {
+          title: 'Transparent to Application',
+          desc: "Your application doesn't need to implement authentication logic. The sidecar manages everything transparently.",
+        },
+        independent: {
+          title: 'Independent Scalability',
+          desc: 'The sidecar scales automatically with your application, maintaining the ideal resource ratio.',
+        },
+      },
+    },
+    ingress: {
+      title: 'Ingress Middleware',
+      desc: 'Use idm-auth.io as authentication middleware in your Ingress Controller',
+      subtitle: 'Configure idm-auth.io as middleware in Nginx, Traefik or Kong',
+      back: 'Back',
+      overview: {
+        title: 'Overview',
+        description:
+          'The ingress middleware model centralizes authentication and authorization at your Kubernetes cluster entry point. All requests pass through the NGINX Ingress Controller, which delegates credential validation to a dedicated pod before forwarding to the backend.',
+      },
+      howItWorks: {
+        title: 'How It Works',
+        step1: {
+          title: '1. User Request',
+          desc: 'The user accesses the application through the NGINX Ingress Controller, which acts as the single entry point to the cluster.',
+        },
+        step2: {
+          title: '2. Authentication Validation',
+          desc: 'NGINX forwards the request to the Authentication/Authorization Pod, which makes a call to the idm-auth.io SSAS (external to the cluster) to validate user credentials.',
+        },
+        step3: {
+          title: '3. Authorization Validation',
+          desc: 'After successful authentication, the pod makes a second call to SSAS to verify user permissions and access policies for the requested resource.',
+        },
+        step4: {
+          title: '4. Backend Access',
+          desc: 'NGINX forwards the authorized request to the Backend Application. Your application receives only validated requests, without needing to implement security logic.',
+        },
+      },
+      benefits: {
+        title: 'Benefits',
+        centralized: {
+          title: 'Centralized Security',
+          desc: 'All validation occurs at the ingress, before any request reaches your internal services.',
+        },
+        separation: {
+          title: 'Separation of Concerns',
+          desc: 'Your backend focuses on business logic, while authentication and authorization are managed externally.',
+        },
+        scalability: {
+          title: 'Scalability',
+          desc: 'The authentication pod scales independently from the application, optimizing resources according to demand.',
+        },
+        external: {
+          title: 'External SSAS',
+          desc: 'The idm-auth.io SSAS service operates outside the cluster, enabling centralized policy management for multiple environments.',
+        },
       },
     },
   },

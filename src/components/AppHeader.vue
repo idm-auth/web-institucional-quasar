@@ -9,6 +9,7 @@
             <q-btn flat :label="$t('header.features')" @click="scrollTo('features')" class="text-grey-3" />
             <q-btn flat :label="$t('header.about')" @click="scrollTo('about')" class="text-grey-3" />
             <q-btn flat :label="$t('header.whyUse')" to="/why-use" class="text-grey-3" />
+            <q-btn flat :label="$t('header.howToUse')" to="/how-to-use" class="text-grey-3" />
             <q-btn flat :label="$t('header.contact')" @click="scrollTo('contact')" class="text-grey-3" />
             <LanguageSelector />
             <q-btn

@@ -333,7 +333,7 @@ export default {
     },
   },
   howToUse: {
-    title: 'Como Usar',
+    title: 'Como usar',
     subtitle: 'Guia completo para começar a usar o idm-auth.io',
     banner: 'Existem muitas formas de usar o idm-auth.io',
     sidecar: {
@@ -341,18 +341,97 @@ export default {
       desc: 'Execute o idm-auth.io como um container sidecar junto à sua aplicação',
       subtitle: 'Implante o idm-auth.io como sidecar no Kubernetes ou Docker Compose',
       back: 'Voltar',
-      comingSoon: 'Conteúdo em breve...',
-      diagram: {
-        user: 'Usuário',
-        pod: 'Pod / Container Group',
-        app: 'Sua Aplicação',
-        backend: 'IDM-Auth Backend',
-        step1: '1. Solicita recurso',
-        step2: '2. Valida autenticação',
-        step3: '3. Autenticação válida',
-        step4: '4. Valida autorização',
-        step5: '5. Autorização válida',
-        step6: '6. Proxy para aplicação',
+      overview: {
+        title: 'Visão Geral',
+        description:
+          'O modelo sidecar implanta o idm-auth.io como um container adicional no mesmo pod da sua aplicação. O usuário acessa diretamente o sidecar, que gerencia toda autenticação e autorização antes de encaminhar requisições validadas para sua aplicação.',
+      },
+      howItWorks: {
+        title: 'Como Funciona',
+        step1: {
+          title: '1. Requisição Direta ao Sidecar',
+          desc: 'O usuário acessa diretamente o container sidecar do idm-auth.io, que atua como proxy de autenticação no mesmo pod da aplicação.',
+        },
+        step2: {
+          title: '2. Validação de Autenticação',
+          desc: 'O sidecar realiza uma chamada ao SSAS do idm-auth.io (externo ao cluster) para validar as credenciais do usuário e verificar sua identidade.',
+        },
+        step3: {
+          title: '3. Validação de Autorização',
+          desc: 'Após autenticação bem-sucedida, o sidecar realiza uma segunda chamada ao SSAS para verificar as permissões e políticas de acesso do usuário ao recurso solicitado.',
+        },
+        step4: {
+          title: '4. Proxy para Aplicação',
+          desc: 'O sidecar encaminha a requisição autorizada para o container da aplicação via localhost. Sua aplicação recebe apenas requisições validadas.',
+        },
+      },
+      benefits: {
+        title: 'Benefícios',
+        colocated: {
+          title: 'Co-localização',
+          desc: 'Sidecar e aplicação compartilham o mesmo pod, garantindo baixa latência e comunicação eficiente via localhost.',
+        },
+        isolation: {
+          title: 'Isolamento de Segurança',
+          desc: 'Cada aplicação tem seu próprio sidecar de autenticação, isolando falhas e permitindo configurações específicas por serviço.',
+        },
+        transparent: {
+          title: 'Transparente para Aplicação',
+          desc: 'Sua aplicação não precisa implementar lógica de autenticação. O sidecar gerencia tudo de forma transparente.',
+        },
+        independent: {
+          title: 'Escalabilidade Independente',
+          desc: 'O sidecar escala automaticamente junto com sua aplicação, mantendo a proporção ideal de recursos.',
+        },
+      },
+    },
+    ingress: {
+      title: 'Middleware de Ingress',
+      desc: 'Use o idm-auth.io como middleware de autenticação no seu Ingress Controller',
+      subtitle: 'Configure o idm-auth.io como middleware no Nginx, Traefik ou Kong',
+      back: 'Voltar',
+      overview: {
+        title: 'Visão Geral',
+        description:
+          'O modelo de middleware de ingress centraliza a autenticação e autorização no ponto de entrada do seu cluster Kubernetes. Todas as requisições passam pelo NGINX Ingress Controller, que delega a validação de credenciais para um pod dedicado antes de encaminhar ao backend.',
+      },
+      howItWorks: {
+        title: 'Como Funciona',
+        step1: {
+          title: '1. Requisição do Usuário',
+          desc: 'O usuário acessa a aplicação através do NGINX Ingress Controller, que atua como ponto único de entrada no cluster.',
+        },
+        step2: {
+          title: '2. Validação de Autenticação',
+          desc: 'O NGINX encaminha a requisição para o Pod de Autenticação/Autorização, que realiza uma chamada ao SSAS do idm-auth.io (externo ao cluster) para validar as credenciais do usuário.',
+        },
+        step3: {
+          title: '3. Validação de Autorização',
+          desc: 'Após autenticação bem-sucedida, o pod realiza uma segunda chamada ao SSAS para verificar as permissões e políticas de acesso do usuário ao recurso solicitado.',
+        },
+        step4: {
+          title: '4. Acesso ao Backend',
+          desc: 'O NGINX encaminha a requisição autorizada para o Backend Application. Sua aplicação recebe apenas requisições validadas, sem necessidade de implementar lógica de segurança.',
+        },
+      },
+      benefits: {
+        title: 'Benefícios',
+        centralized: {
+          title: 'Segurança Centralizada',
+          desc: 'Toda validação ocorre no ingress, antes de qualquer requisição atingir seus serviços internos.',
+        },
+        separation: {
+          title: 'Separação de Responsabilidades',
+          desc: 'Seu backend foca na lógica de negócio, enquanto a autenticação e autorização são gerenciadas externamente.',
+        },
+        scalability: {
+          title: 'Escalabilidade',
+          desc: 'O pod de autenticação escala independentemente da aplicação, otimizando recursos conforme a demanda.',
+        },
+        external: {
+          title: 'SSAS Externo',
+          desc: 'O serviço SSAS do idm-auth.io opera fora do cluster, permitindo gestão centralizada de políticas para múltiplos ambientes.',
+        },
       },
     },
   },
