@@ -3,7 +3,7 @@
     <q-toolbar class="q-px-md bg-black shadow-1">
       <q-toolbar-title class="q-pa-none full-width q-mx-auto">
         <div class="row items-center justify-between">
-          <q-img src="/src/assets/logo-accent.svg" alt="idm-auth.io" style="width: 120px" />
+          <q-img src="/images/logo-accent.svg" alt="idm-auth.io" style="width: 120px" />
 
           <div class="row items-center q-gutter-md">
             <q-btn

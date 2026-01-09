@@ -15,7 +15,7 @@
         />
 
         <HowToUseDiagramSection
-          image-src="/src/assets/howToUse/middleware.png"
+          image-src="/images/howToUse/middleware.png"
           image-alt="Middleware Architecture"
         />
 

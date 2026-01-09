@@ -15,14 +15,11 @@
         />
 
         <HowToUseDiagramSection
-          image-src="/src/assets/howToUse/reverse-proxy.png"
+          image-src="/images/howToUse/reverse-proxy.png"
           image-alt="Sidecar Architecture"
         />
 
-        <HowToUseStepsSection
-          :title="$t('howToUse.sidecar.howItWorks.title')"
-          :steps="steps"
-        />
+        <HowToUseStepsSection :title="$t('howToUse.sidecar.howItWorks.title')" :steps="steps" />
       </div>
     </section>
 

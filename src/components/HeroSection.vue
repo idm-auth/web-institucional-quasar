@@ -6,7 +6,7 @@
         <q-badge class="hero-badge" outline color="accent" :label="$t('hero.badge2')" />
         <q-badge class="hero-badge" outline color="accent" :label="$t('hero.badge3')" />
       </div>
-      <q-img src="/src/assets/logo-accent.svg" alt="idm-auth.io" class="hero-logo" />
+      <q-img src="/images/logo-accent.svg" alt="idm-auth.io" class="hero-logo" />
       <p class="hero-subtitle text-h5 q-mt-lg q-mb-none">{{ $t('hero.subtitle') }}</p>
       <div class="row q-mt-xl q-gutter-md justify-center">
         <q-btn
