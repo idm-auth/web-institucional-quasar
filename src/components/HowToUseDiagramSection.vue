@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-center q-my-xl">
-    <img :src="imageSrc" :alt="imageAlt" style="max-width: 100%; height: auto" />
+    <img :src="imageSrc" :alt="imageAlt" style="max-width: 60%; height: auto" />
   </div>
 </template>
 

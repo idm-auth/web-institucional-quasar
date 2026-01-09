@@ -3,14 +3,29 @@
     <q-toolbar class="q-px-md bg-black shadow-1">
       <q-toolbar-title class="q-pa-none full-width q-mx-auto">
         <div class="row items-center justify-between">
-          <img src="../assets/logo-accent.svg" alt="idm-auth.io" class="logo-img" />
+          <q-img src="/src/assets/logo-accent.svg" alt="idm-auth.io" style="width: 120px" />
 
           <div class="row items-center q-gutter-md">
-            <q-btn flat :label="$t('header.features')" @click="scrollTo('features')" class="text-grey-3" />
-            <q-btn flat :label="$t('header.about')" @click="scrollTo('about')" class="text-grey-3" />
+            <q-btn
+              flat
+              :label="$t('header.features')"
+              @click="scrollTo('features')"
+              class="text-grey-3"
+            />
+            <q-btn
+              flat
+              :label="$t('header.about')"
+              @click="scrollTo('about')"
+              class="text-grey-3"
+            />
             <q-btn flat :label="$t('header.whyUse')" to="/why-use" class="text-grey-3" />
             <q-btn flat :label="$t('header.howToUse')" to="/how-to-use" class="text-grey-3" />
-            <q-btn flat :label="$t('header.contact')" @click="scrollTo('contact')" class="text-grey-3" />
+            <q-btn
+              flat
+              :label="$t('header.contact')"
+              @click="scrollTo('contact')"
+              class="text-grey-3"
+            />
             <LanguageSelector />
             <q-btn
               :label="$t('header.console')"
@@ -40,7 +55,7 @@ const scrollTo = (id: string) => {
     void router.push({ path: '/', hash: `#${id}` });
     return;
   }
-  
+
   const element = document.getElementById(id);
   if (element) {
     const target = getScrollTarget(element);
@@ -52,10 +67,6 @@ const scrollTo = (id: string) => {
 </script>
 
 <style scoped lang="scss">
-.logo-img {
-  max-height: 35px;
-}
-
 .btn-login {
   background: $accent;
   color: $secondary;
