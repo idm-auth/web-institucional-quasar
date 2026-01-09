@@ -5,6 +5,7 @@ export default {
     contact: 'Contact',
     console: 'Console',
     whyUse: 'Why Use',
+    howToUse: 'How to Use',
   },
   hero: {
     badge1: 'Authentication',
@@ -327,6 +328,30 @@ export default {
       subtitle: 'Join hundreds of companies that trust idm-auth.io',
       primary: 'Start Free',
       secondary: 'Back to Home',
+    },
+  },
+  howToUse: {
+    title: 'How to Use',
+    subtitle: 'Complete guide to get started with idm-auth.io',
+    banner: 'There are many ways to use idm-auth.io',
+    sidecar: {
+      title: 'Sidecar Container',
+      desc: 'Run idm-auth.io as a sidecar container alongside your application',
+      subtitle: 'Deploy idm-auth.io as a sidecar in Kubernetes or Docker Compose',
+      back: 'Back',
+      comingSoon: 'Content coming soon...',
+      diagram: {
+        user: 'User',
+        pod: 'Pod / Container Group',
+        app: 'Your Application',
+        backend: 'IDM-Auth Backend',
+        step1: '1. Request resource',
+        step2: '2. Validate authentication',
+        step3: '3. Authentication valid',
+        step4: '4. Validate authorization',
+        step5: '5. Authorization valid',
+        step6: '6. Proxy to application',
+      },
     },
   },
 };
