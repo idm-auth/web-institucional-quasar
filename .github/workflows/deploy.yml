@@ -36,24 +36,24 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.DEPLOY_USER_AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.DEPLOY_USER_AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ vars.DEPLOY_USER_AWS_REGION || 'us-east-1' }}
+          aws-region: ${{ secrets.DEPLOY_USER_AWS_REGION || 'us-east-1' }}
 
       - name: Deploy to S3
         run: |
           # Upload assets with long cache (1 year)
-          aws s3 sync dist/spa s3://${{ vars.INSTITUCIONAL_WEBSITE_S3_BUCKET }} \
+          aws s3 sync dist/spa s3://${{ secrets.INSTITUCIONAL_WEBSITE_S3_BUCKET }} \
             --exclude "index.html" \
             --exclude "*.html" \
             --delete \
             --cache-control max-age=31536000,public
           
           # Upload HTML files with short cache (5 minutes)
-          aws s3 sync dist/spa s3://${{ vars.INSTITUCIONAL_WEBSITE_S3_BUCKET }} \
+          aws s3 sync dist/spa s3://${{ secrets.INSTITUCIONAL_WEBSITE_S3_BUCKET }} \
             --exclude "*" \
             --include "*.html" \
             --cache-control max-age=300,public
 
       - name: Invalidate CloudFront cache
-        if: ${{ vars.INSTITUCIONAL_WEBSITE_CLOUDFRONT_DISTRIBUTION_ID != '' }}
+        if: ${{ secrets.INSTITUCIONAL_WEBSITE_CLOUDFRONT_DISTRIBUTION_ID != '' }}
         run: |
-          aws cloudfront create-invalidation --distribution-id ${{ vars.INSTITUCIONAL_WEBSITE_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.INSTITUCIONAL_WEBSITE_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
